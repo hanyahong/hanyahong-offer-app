@@ -1,0 +1,33 @@
+<ion-view>
+  <!--头部-->
+  <ion-header-bar align-title="center" class="bar-positive">
+    <h1 class="title title-center">首页</h1>
+    <div class="buttons">
+      <button class="button">测试按钮</button>
+    </div>
+  </ion-header-bar>
+  <!--中间部分-->
+  <icon-content>
+    <!--页面内容-->
+    <ion-slide-box>
+      <ion-slide ng-repeat="item in views.slideData track by $index ">
+      <div class="box">
+        <img ng-src="{{item.img}}">
+      </div>
+      </ion-slide>
+      <ion-list>
+        <ion-item ng-repeat="item in views.listData track by $index ">
+          <p>姓名：{{item.Name}}</p>
+          <p>城市：{{item.City}}</p>
+        </ion-item>
+      </ion-list>
+    </ion-slide-box>
+  </icon-content>
+  <ion-footer-bar align-title="center" class="bar-positive">
+    <button class="button" >首页</button>
+    <button class="button" >历史</button>
+    <button class="button" >地理</button>
+    <button class="button" >我的</button>
+  </ion-footer-bar>
+
+</ion-view>
