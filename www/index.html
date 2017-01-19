@@ -1,32 +1,33 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app" lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-  <title>我的app</title>
-  <link rel="manifest" href="manifest.json">
-  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="format-detection" content="email=no">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="lib/ionic/css/ionic.css"/>
+  <link rel="stylesheet" href="css/animate.css"/>
+  <link rel="stylesheet" type="text/css" href="css/my-field.css">
+  <link rel="stylesheet" type="text/css" href="css/login.css">
+  <link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css">
+  <link rel="stylesheet" type="text/css" href="lib/typeahead/css/prettify.css">
 
-  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
-  <link href="css/ionic.app.css" rel="stylesheet">
-  -->
-
-  <!-- ionic/angularjs合并包 js -->
-  <script src="lib/ionic/js/ionic.bundle.js"></script>
-  <script src="lib/ionic/js/ionic.js"></script>
-
-  <!-- cordova script (this will be a 404 during development)混合式开发，要引入 -->
+  <script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+  <script src="js/swiper.min.js"></script>
+  <script src="lib/ionic/js/ionic.bundle.js" type="text/javascript"></script>
+  <script src="lib/ionic/js/ionic.js" type="text/javascript"></script>
+  <script src="lib/calendar/js/calendar.js" type="text/javascript"></script>
+  <script src="lib/typeahead/js/prettify.js" type="text/javascript"></script>
+  <script src="lib/typeahead/js/mockjax.js" type="text/javascript"></script>
+  <script src="lib/typeahead/js/bootstrap-typeahead.js" type="text/javascript"></script>
+  <script src="js/Sortable.js"></script>
+  <script src="js/ng-cordova.js"></script>
   <script src="cordova.js"></script>
 
-  <!-- your app's js -->
-
-  <script src="js/controller/homeCtrl.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/services.js"></script>
+  <title>51报价单</title>
 </head>
-<body ng-app="myapp">
-<!--项目根节点-->
+<body ng-app="app" style="font-family :微软雅黑;">
 <ion-nav-view></ion-nav-view>
 </body>
 </html>
