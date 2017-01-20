@@ -1,0 +1,275 @@
+[33mcommit 64cc42b4037e18560888e493937ea4711c7a9124[m
+Merge: c179f1c 7fc7a0d
+Author: liuwuchang <lwc@zhanyun.cc>
+Date:   Wed Oct 12 17:25:55 2016 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit c179f1ca32b4d25b7f86c5fd096d0bd70499561f[m
+Author: liuwuchang <lwc@zhanyun.cc>
+Date:   Wed Oct 12 17:25:36 2016 +0800
+
+    刘武昌
+
+[33mcommit 7fc7a0d0e5cd5390fcb8e61b75ab473064c82678[m
+Merge: 6ad9b69 0a9f342
+Author: lty <lty@zhanyun.cc>
+Date:   Wed Oct 12 15:34:13 2016 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #	www/js/controllers/my-controller.js
+    #	www/js/services.js
+
+[33mcommit 6ad9b69a528a9b21865dfed795e99c89825452e4[m
+Author: lty <lty@zhanyun.cc>
+Date:   Wed Oct 12 15:33:48 2016 +0800
+
+    lty
+
+[33mcommit 0a9f3420c92c12418f7bbe5ad31c0273d6297aaf[m
+Author: liuwuchang <lwc@zhanyun.cc>
+Date:   Wed Oct 12 15:11:16 2016 +0800
+
+    刘武昌
+
+[33mcommit b909a4ffdad9c68a80e347ebd975ed3dc57c4785[m
+Author: liuwuchang <lwc@zhanyun.cc>
+Date:   Wed Oct 12 15:06:45 2016 +0800
+
+    刘武昌
+
+[33mcommit f07ca35e80cf4ac4f675a3bce5d8cd9e5731df81[m
+Merge: 4bf88ad 915561e
+Author: liuwuchang <lwc@zhanyun.cc>
+Date:   Wed Oct 12 14:32:56 2016 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 4bf88ad990abd9a628ca17a75d653809245ee27a[m
+Author: liuwuchang <lwc@zhanyun.cc>
+Date:   Wed Oct 12 14:32:46 2016 +0800
+
+    刘武昌
+
+[33mcommit 915561e368528eb43453bb58a60a8a2b2b3eb9a1[m
+Author: yuyuanjiang <yyj@zhanyun.cc>
+Date:   Wed Oct 12 14:22:38 2016 +0800
+
+    于远江
+
+[33mcommit 60aaa390f4317eadd838b273dab694fe78206755[m
+Merge: cd85c22 1fca307
+Author: yuyuanjiang <yyj@zhanyun.cc>
+Date:   Wed Oct 12 13:56:54 2016 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit cd85c22e9af222302f106ea2d3cb057ff415019a[m
+Merge: 963c554 80bd934
+Author: yuyuanjiang <yyj@zhanyun.cc>
+Date:   Wed Oct 12 13:54:04 2016 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 963c55483641a2d03a30a960f6ea0ae6e726b75f[m
+Author: yuyuanjiang <yyj@zhanyun.cc>
+Date:   Wed Oct 12 13:53:54 2016 +0800
+
+    于远江
+
+[33mcommit 1fca307435c410c238076f8ebb05a2f14b849e9e[m
+Author: liuwuchang <lwc@zhanyun.cc>
+Date:   Wed Oct 12 13:51:09 2016 +0800
+
+    刘武昌
+
+[33mcommit 80bd934836423666f3ac63e66e0466e4273ca738[m
+Merge: 3b5b993 83a2010
+Author: liuwuchang <lwc@zhanyun.cc>
+Date:   Wed Oct 12 13:47:57 2016 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #	www/js/controllers/my-controller.js
+    #	www/js/controllers/offer-controller.js
+
+[33mcommit 3b5b9935681290b40db327b54cd5bdc019499dbd[m
+Author: liuwuchang <lwc@zhanyun.cc>
+Date:   Wed Oct 12 13:46:49 2016 +0800
+
+    刘武昌
+
+[33mcommit 83a2010e1966e5d1506fdfcc8de67a80650c56ce[m
+Merge: b6cf117 ce6b5fb
+Author: lty <lty@zhanyun.cc>
+Date:   Wed Oct 12 12:55:42 2016 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit b6cf11709f0a09df9f30e9f5a404d90df2b866d5[m
+Author: lty <lty@zhanyun.cc>
+Date:   Wed Oct 12 12:55:29 2016 +0800
+
+    lty
+
+[33mcommit dbfcee648bac99a91e6c56a80f59934e138fa132[m
+Merge: 24fe224 ce6b5fb
+Author: liuwuchang <lwc@zhanyun.cc>
+Date:   Wed Oct 12 12:40:01 2016 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 24fe2248faf9339601f9fe88e34911440f52a2fd[m
+Author: liuwuchang <lwc@zhanyun.cc>
+Date:   Wed Oct 12 12:39:54 2016 +0800
+
+    刘武昌
+
+[33mcommit ce6b5fbb4b527a4f42965addb693e5ad01aa199f[m
+Merge: 1166c72 bd7ac0c
+Author: yuyuanjiang <yyj@zhanyun.cc>
+Date:   Wed Oct 12 12:33:19 2016 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 1166c729200bc92e06c78f863d378ba78f93c002[m
+Author: yuyuanjiang <yyj@zhanyun.cc>
+Date:   Wed Oct 12 12:33:11 2016 +0800
+
+    于远江
+
+[33mcommit 75ab6f8d36e3e2b44abf1db4d517b1bfc10d69ea[m
+Merge: 78aeec8 bd7ac0c
+Author: liuwuchang <lwc@zhanyun.cc>
+Date:   Wed Oct 12 12:22:46 2016 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #	platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock
+    #	platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin
+    #	platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin
+    #	platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin
+    #	platforms/android/CordovaLib/build/intermediates/bundles/debug/classes.jar
+    #	platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaBridge.class
+    #	platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaResourceApi.class
+    #	platforms/android/CordovaLib/build/intermediates/incremental/mergeDebugAssets/merger.xml
+    #	platforms/android/CordovaLib/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml
+    #	platforms/android/CordovaLib/build/intermediates/incremental/packageDebugResources/merger.xml
+    #	platforms/android/CordovaLib/build/outputs/aar/CordovaLib-debug.aar
+    #	www/js/controllers/project-controller.js
+    #	www/templates/tab-project.html
+
+[33mcommit 78aeec85471655fb80759ebffd6905f25711db59[m
+Author: liuwuchang <lwc@zhanyun.cc>
+Date:   Wed Oct 12 12:22:04 2016 +0800
+
+    刘武昌
+
+[33mcommit bd7ac0c66eeae93fdd1412da556060333510fe0d[m
+Merge: 2530fcc 036751e
+Author: lty <lty@zhanyun.cc>
+Date:   Wed Oct 12 12:11:10 2016 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #	www/js/controllers.js
+
+[33mcommit 2530fcca52948709b526db235bb0a02fbee23d28[m
+Author: lty <lty@zhanyun.cc>
+Date:   Wed Oct 12 12:09:51 2016 +0800
+
+    lty
+
+[33mcommit 036751e1025e90cd40dec76d05d262c9d32ff8a6[m
+Author: yuyuanjiang <yyj@zhanyun.cc>
+Date:   Wed Oct 12 09:43:21 2016 +0800
+
+    于远江
+
+[33mcommit c915c091a0711173cc807e91dd199ca37f11bbcf[m
+Author: yuyuanjiang <yyj@zhanyun.cc>
+Date:   Tue Oct 11 18:44:21 2016 +0800
+
+    于远江
+
+[33mcommit 67bf57434f80e9bf43ab0d0327a715f876292351[m
+Merge: 7baa3d7 9f3b184
+Author: lty <lty@zhanyun.cc>
+Date:   Tue Oct 11 12:34:29 2016 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #	www/templates/quotation.html
+
+[33mcommit 9f3b18458dba63c5960c05f7c0fc5ee12d20330b[m
+Merge: 1bfa439 07cfc7d
+Author: yuyuanjiang <yyj@zhanyun.cc>
+Date:   Tue Oct 11 12:25:58 2016 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 1bfa43966c0647b7e49c30a0d2e482f455c06d75[m
+Author: yuyuanjiang <yyj@zhanyun.cc>
+Date:   Tue Oct 11 12:25:49 2016 +0800
+
+    于远江
+
+[33mcommit 7baa3d72a7dde08c06d53ce338b179c4b239e504[m
+Author: lty <lty@zhanyun.cc>
+Date:   Tue Oct 11 12:24:20 2016 +0800
+
+    lty
+
+[33mcommit ef581ebd3f6891490a864df3d6fd98105feb79e4[m
+Author: yuyuanjiang <yyj@zhanyun.cc>
+Date:   Tue Oct 11 09:41:06 2016 +0800
+
+    于远江
+
+[33mcommit 07cfc7d5b0a1a59f1584460ee5ba232b6357fcb3[m
+Merge: 2828044 ef581eb
+Author: lty <lty@zhanyun.cc>
+Date:   Tue Oct 11 09:38:36 2016 +0800
+
+    Merge remote-tracking branch 'origin/master'
+
+[33mcommit 28280446ccf675e5873b874c1bad0e4fc9f2e542[m
+Author: lty <lty@zhanyun.cc>
+Date:   Tue Oct 11 09:38:25 2016 +0800
+
+    lty
+
+[33mcommit 0b3023bad557ed6f360f3ec5d019f717e3c35f5d[m
+Author: yuyuanjiang <yyj@zhanyun.cc>
+Date:   Sun Oct 9 17:42:10 2016 +0800
+
+    于远江
+
+[33mcommit 6b70ff1df9f3b1daaf2195a01869f0f4d19b2b21[m
+Author: yuyuanjiang <yyj@zhanyun.cc>
+Date:   Sat Oct 8 19:35:46 2016 +0800
+
+    于远江
+
+[33mcommit 74b17a6e9622f7ae2ae323f0ac53079011ed6acb[m
+Merge: c9cd75d 2fb636e
+Author: yuyuanjiang <yyj@zhanyun.cc>
+Date:   Sat Oct 8 18:44:00 2016 +0800
+
+    Merge remote-tracking branch 'origin/master'
+    
+    # Conflicts:
+    #	platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock
+    #	platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin
+    #	platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin
+    #	platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin
+    #	platforms/android/CordovaLib/build/intermediates/bundles/debug/classes.jar
+    #	platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaBridge.class
+    #	platforms/android/CordovaLib/build/intermediates/classes/debug/org/apache/cordova/CordovaResourceApi.class
+   

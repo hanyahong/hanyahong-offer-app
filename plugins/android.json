@@ -1,0 +1,69 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        },
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        },
+        "cordova-plugin-file-opener2": {
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        },
+        "cordova-plugin-x-socialsharing": {
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        },
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        },
+        "cordova-plugin-image-picker": {
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        },
+        "cordova-plugin-contacts": {
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        },
+        "cordova-plugin-app-version": {
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        },
+        "cordova-plugin-screen-orientation": {
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        },
+        "cordova-plugin-file-transfer": {
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        },
+        "cordova-plugin-network-information": {
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        },
+        "cordova-plugin-qqsdk": {
+            "QQ_APP_ID": "1105814555",
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        },
+        "cordova-plugin-wechat": {
+            "WECHATAPPID": "wxaad26f722505b64c",
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "com.zhanyun.cloud"
+        }
+    }
+}
