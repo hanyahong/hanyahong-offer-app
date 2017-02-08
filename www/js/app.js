@@ -29,8 +29,12 @@ myapp
         url: '/login',//路由url
         templateUrl: 'templates/login.html',//模板位置
         controller: 'loginCtrl'//模板对于的控制器名称，
+      })
+      .state('index-login', {//路由名称
+          url: '/index-login',//路由url
+          templateUrl: 'templates/index-login.html',//模板位置
+          controller: 'MyIndexLoginCtrl'//模板对于的控制器名称，
       });
-
     // if none of the above states are matched, use this as the fallback
     $urlRouterProvider.otherwise('/login');
 

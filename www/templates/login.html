@@ -1,21 +1,32 @@
 <ion-view class="login_main">
-  <icon-content>
-
-    <div class="login_head">
-      <img src="./img/login_head.png" height="70%" width="100%"/>
-    </div>
-    <div class="login_text">
-      <div class="login_text_user">
-        <div class="login_text_reg_uap">
-          <div class="login_text_reg_uap_user"><span class="login_text_reg_uap_user_a">账号</span><input  type="text"/></div>
-          <div class="login_text_reg_uap_user"><span class="login_text_reg_uap_user_a">密码</span><input  type="password"/></div>
+    <icon-content>
+        <div id="calt" style="width:100%;height:80px;"></div>
+        <div class="login_head">
+            <img src="./img/login_head.png" style="width:100%;height:100%;"/>
         </div>
-        <div class="login_text_button">登录</div>
-        <div class="login_text_reg">
-          <div class="login_text_reg_left">免费注册</div>
-          <div class="login_text_reg_right">找回密码</div>
+        <div class="login_text" id="bten" ng-controller="loginCtrl">
+            <div class="login_text_user">
+                <div class="login_text_reg_uap">
+                    <form>
+                        <div class="login_text_reg_uap_user">
+                            <span class="login_text_reg_uap_user_a">账号</span>
+                            <input type="text" ng-focus="show()" ng-blur="hide()" ng-click="next()" ng-keypress="next($event)"/>
+                        </div>
+                        <div class="login_text_reg_uap_user">
+                            <span class="login_text_reg_uap_user_a">密码</span>
+                            <input type="password" ng-focus="show()" ng-blur="hide()"/>
+                        </div>
+                    </form>
+                </div>
+                <button type="submit" ng-click="goIndexLogin()"  class="login_text_button"
+                        ng-disabled="loginForm.$invalid">
+                    登录
+                </button>
+                <div class="login_text_reg">
+                    <div class="login_text_reg_left">免费注册</div>
+                    <div class="login_text_reg_right">找回密码</div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-  </icon-content>
+    </icon-content>
 </ion-view>

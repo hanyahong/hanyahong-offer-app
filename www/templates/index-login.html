@@ -1,0 +1,114 @@
+<ion-view>
+    <style>
+        .list_count .item-icon-right .icon{
+            right: 0;
+        }
+        .ions>h4{
+            text-align: center;
+            margin-top:15px;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        .content{
+            width:100%;
+            overflow:hidden;
+            padding:0% 5%;
+            margin-top:45px;
+        }
+        .students{
+            width:100%;
+            height:220px;
+            padding-left:2%;
+            padding-top:4%;
+            margin:0 auto;
+            line-height:40px;
+        }
+        .students_list{
+            width:100%;
+            height:40px;
+        }
+        .students_list>label{
+            float: left;
+            margin-top:5px;
+        }
+        .students_list>input{
+            width:82%;
+            border:1px solid #ccc;
+            float: left;
+            height:26px;
+            border-radius:4px;
+            padding-left:6px;
+            margin-top:3px;
+            font-family:"微软雅黑";
+        }
+        .students_list input[readonly] {
+            background: #fff;
+            border:1px solid #fff !important;
+        }
+        .q-headlists {
+            position: absolute;
+            left: -112px;
+            top: 40px;
+            width: 150px;
+            background: #000;
+            border-radius: 5px;
+            filter: alpha(Opacity=80);
+            -moz-opacity: 0.8;
+            opacity: 0.8;
+            padding: 6px 16px  7px 16px;
+        }
+        .q-headlists p {
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            color: #D9D9D9;
+            margin: 0;
+        }
+        .sanjiaos {
+            position: absolute;
+            border: 8px solid transparent;
+            border-bottom-color: #000;
+            top: -16px;
+            right: 12px;
+            filter: alpha(Opacity=80);
+            -moz-opacity: 0.8;
+            opacity: 0.8;
+        }
+        .students_list_span{
+            position: relative;
+            top:-5px;
+        }
+        .backgroundShow {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            background: #000;
+            filter: alpha(Opacity=00);
+            -moz-opacity: 0;
+            opacity: 0;
+            z-index:2;
+        }
+    </style>
+    <ion-header-bar class="bar bar-header">
+        <i class="icon ion-ios-arrow-left icon_sty" style="font-size:28px;margin-top:3px;margin-left:10px;" ng-click="goBack()" ></i>
+        <h1 class="title slip">公司客户</h1>
+        <div ng-if="state=='编辑'&&!offLine" class="buttons">
+            <i class="icon ion-more icon_sty" ng-click="showBackground()"></i>
+            <div class="q-headlists" ng-if="isShowTop">
+                <i class="sanjiaos"></i>
+                <p  ng-click="edit()" style=" border-bottom: 1px solid #999999;">编辑公司</p>
+                <p  ng-click="goContactsDetails('新建',null)">创建联系人</p>
+            </div>
+        </div>
+        <div ng-if="state=='保存'" class="buttons balanced" style="font-size: 12px;padding: 6px;color:#000;" ng-click="Modifycustomer()" ng-bind="state"></div>
+    </ion-header-bar>
+
+    <ion-content style="margin-top:187px;"  overflow-scroll="false" has-bouncing="true" >
+        <div ng-repeat="">
+
+        </div>
+    </ion-content>
+
+</ion-view>
