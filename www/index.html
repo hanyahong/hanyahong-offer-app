@@ -1,32 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-  <title>我的app</title>
-  <link rel="manifest" href="manifest.json">
-  <link href="lib/ionic/css/ionic.css" rel="stylesheet">
-  <link href="css/style.css" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>我的app</title>
 
-  <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
-  <link href="css/ionic.app.css" rel="stylesheet">
-  -->
+    <link rel="manifest" href="manifest.json">
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
 
-  <!-- ionic/angularjs合并包 js -->
-  <script src="lib/ionic/js/ionic.bundle.js"></script>
-  <script src="lib/ionic/js/ionic.js"></script>
-  <script src="js/jquery-1.9.1.js"></script>
 
-  <!-- cordova script (this will be a 404 during development)混合式开发，要引入 -->
-  <script src="cordova.js"></script>
+    <!-- ionic/angularjs合并包 js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+    <script src="lib/ionic/js/ionic.js"></script>
+    <script src="js/jquery-1.9.1.js"></script>
 
-  <!-- your app's js -->
+    <!-- cordova script (this will be a 404 during development)混合式开发，要引入 -->
+    <script src="cordova.js"></script>
 
-  <script src="js/controller/loginCtrl.js"></script>
-  <script src="js/app.js"></script>
-  <script src="js/services.js"></script>
+    <!-- your app's js -->
+    <script src="js/controller/loginCtrl.js"></script>
+    <!--主类-->
+    <script src="js/app.js"></script>
+    <!--服务类-->
+    <script src="js/services.js"></script>
 </head>
-<body ng-app="myapp">
+<body ng-app="app">
 <!--项目根节点-->
 <ion-nav-view></ion-nav-view>
 </body>

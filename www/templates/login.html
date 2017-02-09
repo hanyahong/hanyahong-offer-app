@@ -1,4 +1,16 @@
 <ion-view class="login_main">
+    <style>
+        .loading-container .loading {
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.7);
+            color: #fff;
+            text-align: center;
+            text-overflow: ellipsis;
+            font-size: 15px;
+            margin-top: 500px;
+        }
+    </style>
     <icon-content>
         <div id="calt" style="width:100%;height:80px;"></div>
         <div class="login_head">
@@ -10,15 +22,16 @@
                     <form>
                         <div class="login_text_reg_uap_user">
                             <span class="login_text_reg_uap_user_a">账号</span>
-                            <input type="text" ng-focus="show()" ng-blur="hide()" ng-click="next()" ng-keypress="next($event)"/>
+                            <input ng-model="user.key" type="text" ng-focus="show()" ng-blur="hide()" ng-click="next()"
+                                   ng-keypress="next($event)"/>
                         </div>
                         <div class="login_text_reg_uap_user">
                             <span class="login_text_reg_uap_user_a">密码</span>
-                            <input type="password" ng-focus="show()" ng-blur="hide()"/>
+                            <input ng-model="user.password" type="password" ng-focus="show()" ng-blur="hide()"/>
                         </div>
                     </form>
                 </div>
-                <button type="submit" ng-click="goIndexLogin()"  class="login_text_button"
+                <button type="submit" ng-click="userLoginCtr()" class="login_text_button"
                         ng-disabled="loginForm.$invalid">
                     登录
                 </button>
