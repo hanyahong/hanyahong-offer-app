@@ -23,14 +23,24 @@ app.run(function ($ionicPlatform) {
                 templateUrl: 'templates/login.html',//模板位置
                 controller: 'loginCtrl'//模板对于的控制器名称，
             })
-            //主页
-            .state('index-login', {//路由名称
-                url: '/index-login',//路由url
-                templateUrl: 'templates/index-login.html',//模板位置
-                controller: 'MyIndexLoginCtrl'//模板对于的控制器名称，
-            });
+            /**
+             * 主页路由
+             */
+
+            .state('tab', {
+                url: '/tab',
+                abstract: true,
+                templateUrl: 'templates/tabs.html'
+            })
+            .state('tab.main', {//路由名称
+                url: '/main',//路由url
+                views: {
+                    'tab-main': {
+                        templateUrl: 'templates/tab-main.html',//模板位置
+                        controller: 'mainCtrl'//模板对于的控制器名称
+                    }
+                }
+            })
         // 默认调转
         $urlRouterProvider.otherwise('/login');
-
-        // $httpProvider.defaults.headers.post['Content-Type'] = 'application/json';
     });
